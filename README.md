@@ -1,5 +1,6 @@
 # VirtualDriveTest
-an android application that help you to know which base transceiver station you are connect to .
+an android application that help you to know which base transceiver station you are connect to . in addition to that , it can get some keys performance indicators related to the generation you are connecting in . (2G , 3G and  4G) .
+
 # introduction
 The Drive Test is a method of measuring and evaluating the coverage, capacity and quality of service (QoS) of a mobile network.
 The technique involves using a motor vehicle containing mobile air-to-network interface measurement equipment that can detect and record a wide variety of physical and virtual mobile cellular service parameters in a given geographic area.
