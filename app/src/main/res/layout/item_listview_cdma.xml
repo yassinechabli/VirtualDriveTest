@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="5"
+        android:rowCount="4"
+        android:useDefaultMargins="true"
+        android:orientation="vertical"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sigle"
+            android:text="@string/cellsigle"
+            android:textColor="@color/CellSigle"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_row="0"
+            android:layout_column="0"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/networkTypeSigle"
+            android:text="@string/cellnetworktypesigle"
+            android:textColor="@color/CellTypeNetwork"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_columnSpan="2"
+            />
+
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cid"
+        android:text="@string/cid"
+        android:textStyle="bold"
+        android:textColor="@android:color/background_dark"
+        />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mnc"
+        android:text="@string/mnc"
+        android:textStyle="bold"
+        android:textColor="@android:color/background_dark"
+            android:layout_row="1"
+            android:layout_column="0" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mcc"
+        android:text="@string/mcc"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:textStyle="bold"
+        android:textColor="@android:color/background_dark"
+            android:layout_row="3"
+            android:layout_column="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rnc"
+            android:text="@string/rnc"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_dark"
+            android:layout_row="3"
+            android:layout_column="2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rssi"
+            android:text="@string/rssi"
+            android:layout_marginBottom="16dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_dark"
+            android:layout_row="2"
+            android:layout_column="2" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lac"
+        android:text="@string/lac"
+        android:textStyle="bold"
+        android:textColor="@android:color/background_dark"
+            android:layout_row="2"
+            android:layout_column="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/psc"
+            android:text="@string/psc"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_dark"
+            android:layout_row="2"
+            android:layout_column="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/asu"
+            android:text="@string/asu"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_dark"
+            android:layout_row="3"
+            android:layout_column="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ucid"
+            android:text="@string/ucid"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_dark"
+            android:layout_row="1"
+            android:layout_column="2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/power"
+            android:text="@string/power"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_dark"
+            android:layout_row="2"
+            android:layout_column="3" />
+
+    </GridLayout>
+</LinearLayout>

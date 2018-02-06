@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/mapmarker24"
+            android:title="carte " />
+        <item
+            android:id="@+id/nav_cells"
+            android:icon="@drawable/cellularnet"
+            android:title="cellules" />
+        <item
+            android:id="@+id/nav_speed"
+            android:icon="@drawable/speed64"
+            android:title="debit" />
+    </group>
+
+    <item android:title="infos Génerales">
+        <menu>
+            <item
+                android:id="@+id/nav_info"
+                android:icon="@drawable/information24"
+                android:title="operateur,device" />
+        </menu>
+    </item>
+
+</menu>

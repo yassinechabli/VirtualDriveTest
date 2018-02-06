@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="5"
+        android:rowCount="5"
+        android:useDefaultMargins="true"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sigle"
+            android:text="@string/cellsigle"
+            android:textColor="@color/CellSigle"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_row="0"
+            android:layout_column="0"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/networkTypeSigle"
+            android:text="@string/cellnetworktypesigle"
+            android:textColor="@color/CellTypeNetwork"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_columnSpan="2"
+            />
+
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mnc"
+        android:text="@string/mnc"
+        android:textStyle="bold"
+        android:textColor="@android:color/background_dark"
+            android:layout_row="1"
+            android:layout_column="0" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mcc"
+        android:text="@string/mcc"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:textStyle="bold"
+        android:textColor="@android:color/background_dark"
+            android:layout_row="3"
+            android:layout_column="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rsrp"
+            android:text="@string/rsrp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_dark"
+            android:layout_row="3"
+            android:layout_column="2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rssnr"
+            android:text="@string/rssnr"
+            android:layout_marginBottom="16dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_dark"
+            android:layout_row="2"
+            android:layout_column="2" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lac"
+        android:text="@string/lac"
+        android:textStyle="bold"
+        android:textColor="@android:color/background_dark"
+            android:layout_row="2"
+            android:layout_column="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pci"
+            android:text="@string/pci"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_dark"
+            android:layout_row="2"
+            android:layout_column="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/asu"
+            android:text="@string/asu"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_dark"
+            android:layout_row="3"
+            android:layout_column="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/power"
+            android:text="@string/power"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_dark"
+            android:layout_row="2"
+            android:layout_column="3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/eci"
+            android:text="@string/eci"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_dark"
+            android:layout_row="1"
+            android:layout_column="1" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rsrq"
+        android:text="@string/rsrq"
+        android:textStyle="bold"
+        android:textColor="@android:color/background_dark"
+            android:layout_row="1"
+            android:layout_column="2" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tac"
+            android:text="@string/tac"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_dark"
+            android:layout_row="1"
+            android:layout_column="3" />
+
+    </GridLayout>
+</LinearLayout>
